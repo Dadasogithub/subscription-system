@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "env": "^0.0.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.16.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",           /* Set modern JS output version */
+    "module": "commonjs",         /* Use modern Node.js module resolution */
+    "outDir": "./dist",           /* Where compiled JS files go */
+    "rootDir": "./src",           /* Where TS source files live */
+    "strict": true,               /* Enable all strict type-checking */
+    "esModuleInterop": true,      /* Enables emit interoperability between ESM and CJS */
+  } 
+}
